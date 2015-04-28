@@ -8,7 +8,7 @@ main()
 
 {
 
-    char cha1 = 'M' ,cha2 ='3',cha3= '&';
+    char cha1 = 'A' ,cha2 ='3',cha3= '&';
 
     printf("\n %d is return value of isdigit\(cha1\) of %c",isdigit(cha1),cha1);
 

@@ -99,11 +99,11 @@ int main()
                     total_regular += total_seat;
                     unit_price = 80.0;
                 }
-                else if(strcmp(type_seat,"So")==0)
+                else if(strcmp(type_seat,"S")==0)
                 {
                     strcpy(type_seat,"Sofa");
                     total_sofa += total_seat;
-                    unit_price = 150.0;
+                    unit_price = 100.0;
                 }
 
                 total_price = unit_price*total_seat;

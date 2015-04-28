@@ -5,9 +5,9 @@
 int main()
 {
     char  type_seat[20], name[40], again, date[30];
-    float seat_price[5] = {90, 110, 120, 150};
 
     i = 0;
+
     invoice_number = 900;
     number_of_invoice = 10;
     total_seat = total_emperor = total_regular = total_sofa = 0 ;

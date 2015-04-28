@@ -4,7 +4,8 @@
 
 int main()
 {
-    char type_seat[20], name[40], again, date[30];
+    char  type_seat[20], name[40], again, date[30];
+    float seat_price[5] = {80, 100, 120, 150};
 
     i = 0;
     invoice_number = 99;
@@ -87,11 +88,11 @@ int main()
             {
                 total_seat = (seat_number_end-seat_number_start)+1;
 
-                if(strcmp(type_seat,"Em")==0)
+                if(strcmp(type_seat,"E")==0)
                 {
                     strcpy(type_seat,"Emperor");
                     total_emperor += total_seat;
-                    unit_price = 180.0;
+                    unit_price = 120.0;
                 }
                 else if(strcmp(type_seat,"R")==0)
                 {

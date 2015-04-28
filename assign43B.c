@@ -87,17 +87,17 @@ int main()
             {
                 total_seat = (seat_number_end-seat_number_start)+1;
 
-                if(strcmp(type_seat,"E")==0)
+                if(strcmp(type_seat,"Em")==0)
                 {
                     strcpy(type_seat,"Emperor");
                     total_emperor += total_seat;
-                    unit_price = 150.0;
+                    unit_price = 180.0;
                 }
                 else if(strcmp(type_seat,"R")==0)
                 {
                     strcpy(type_seat,"Regular");
                     total_regular += total_seat;
-                    unit_price = 120.0;
+                    unit_price = 80.0;
                 }
                 else if(strcmp(type_seat,"S")==0)
                 {

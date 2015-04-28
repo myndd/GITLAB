@@ -5,7 +5,7 @@
 int main()
 {
     char  type_seat[20], name[40], again, date[30];
-    float seat_price[5] = {80, 100, 120, 150};
+    float seat_price[5] = {85, 105, 120, 150};
 
     i = 0;
     invoice_number = 99;

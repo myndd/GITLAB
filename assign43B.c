@@ -8,8 +8,8 @@ int main()
     float seat_price[5] = {90, 110, 120, 150};
 
     i = 0;
-    invoice_number = 99;
-    number_of_invoice = 0;
+    invoice_number = 900;
+    number_of_invoice = 10;
     total_seat = total_emperor = total_regular = total_sofa = 0 ;
     unit_price = total_price = total_income = gross_income = total_discount = discount = net_income = 0.0;
 

@@ -1,15 +1,10 @@
-/* 55070501043 น.ส.วัชรีพาสน์ เตชะนิธิภัทร <MYND 43B @CPE#26 > */
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
 
 int main()
 {
-    /*notice and initial variables*/
-    int member_number, seat_number_start, seat_number_end, total_seat, invoice_number, number_of_invoice, i;
-    int total_emperor, total_regular, total_sofa;
-    float unit_price, total_price, total_income, gross_income, discount, total_discount, net_income;           /*net income = after discount*/
-    char type_seat[20], name[20], again, date[30];
+    char type_seat[20], name[40], again, date[30];
 
     i = 0;
     invoice_number = 99;
